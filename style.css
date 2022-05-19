@@ -1,0 +1,18 @@
+#coffieCup {
+    background-color: brown;
+    /* margin: 30px; */
+    height: 0px;
+    width: 70px;
+    position:absolute;
+    bottom: 0;
+}
+
+#cup {
+    border: 3px;
+    height: 100px;
+    width: 70px;
+    margin: 30px;
+    border-color: black;
+    position:relative;
+    background-color: bisque;
+}
