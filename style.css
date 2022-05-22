@@ -5,14 +5,27 @@
     width: 70px;
     position:absolute;
     bottom: 0;
+    transition: height 0.25s;
 }
 
 #cup {
-    border: 3px;
+    border: 3px solid;
     height: 100px;
     width: 70px;
     margin: 30px;
     border-color: black;
     position:relative;
     background-color: bisque;
+}
+
+#info {
+    border: 3px solid;
+    padding: 10px 10px;
+    text-align: center;
+    top: 100px;
+    left: 300px;
+    font-size: x-small;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 }
