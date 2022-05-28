@@ -1,5 +1,5 @@
 #coffieCup {
-    background-color: brown;
+    background-color: #a52a2a;
     /* margin: 30px; */
     height: 0px;
     width: 70px;
@@ -15,17 +15,38 @@
     margin: 30px;
     border-color: black;
     position:relative;
-    background-color: bisque;
+    background-color: #ffe4c4;
 }
 
 #info {
     border: 3px solid;
     padding: 10px 10px;
     text-align: center;
-    top: 100px;
-    left: 300px;
+    top: 170px;
+    left: 200px;
     font-size: x-small;
     position: absolute;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
 }
+
+.przycisk {
+    background-color: #6e79aa;
+    border: 2px solid #6e79aa;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+  }
+
+  .przycisk:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid #6e79aa;
+  }

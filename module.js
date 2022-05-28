@@ -6,7 +6,8 @@ class Kubek {
 
     constructor(y) {
         this.pojemnosc = y;
-        this.czystoscKubka=this.kolor;
+        // this.kolor = x;
+        // this.czystoscKubka=this.kolor;
     }
 
     napelnij() {
@@ -51,15 +52,10 @@ class Kubek {
         }
     }
 
-    // kolorKubka() {
-    //     let wybranyKolor = document.getElementById('kolor');
-    //     switch (wybranyKolor){
-    //         case czarny:
-    //         document.getElementById('cup').style.backgroundColor = 'black';
-    //         break
-    //     }
-
-    // }
+    kolorKubka() {
+        let wybranyKolor = document.getElementById('kolor').value;
+        document.getElementById("cup").style.backgroundColor=wybranyKolor;
+    }
 
 }
 

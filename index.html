@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Zajecia nr 4 z JavaScript</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="module.js"></script>
-    </head>
 
-    <button onclick="kubekKawy.napelnij()">Napelnij kubek</button><br>
-    <button onclick="kubekKawy.wezlyk()">Napij się</button><br>
-    <button onclick="kubekKawy.stanKubka()">Sprawdź kubek</button><br>
-    <button onclick="kubekKawy.umyj()">Umyj kubas</button><br>
-    <br>
-    <!-- <form id="listaKolorow">
-        <label for="kolory">Wybierz kolog kubka:</label>
-        <select name="kolory" id="kolor">
-          <option value="czarny">Czarny</option>
-          <option value="bialy">Biały</option>
-          <option value="zielony">Zielony</option>
-          <option value="czerwony">Czerwony</option>
-        </select>
-        <br>
-        <input type="submit" value="Submit">
-      </form> -->
+<head>
+  <title>Zajecia nr 4 z JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="module.js"></script>
+</head>
 
-    <div id="cup"><div id="coffieCup"></div></div>
-    <div id="info"></div>
+<button onclick="kubekKawy.napelnij()" class="przycisk">Napelnij kubek</button>
+<button onclick="kubekKawy.wezlyk()" class="przycisk">Napij się</button>
+<button onclick="kubekKawy.stanKubka()" class="przycisk">Sprawdź kubek</button>
+<button onclick="kubekKawy.umyj()" class="przycisk">Umyj kubas</button><br>
+<button onclick="kubekKawy.kolorKubka()" class="przycisk">Zmien kolor</button>
+
+<form id="listaKolorow">
+  <label for="kolory"></label>
+  <select name="kolory" id="kolor">
+    <option value="black">Czarny</option>
+    <option value="white">Biały</option>
+    <option value="#2e8a2e">Zielony</option>
+    <option value="#c04747">Czerwony</option>
+  </select>
+</form>
+  <br>
+  
+<div id="cup">
+  <div id="coffieCup"></div>
+</div>
+<div id="info"></div>
 
 </html>
